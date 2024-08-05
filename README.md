@@ -1,4 +1,9 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+This is final project for the HAMK Cross-platform development with React Native (Summer 2024)
+
+Overview: 
+The Attendance List App is a React Native application designed for managing a list of people attending the events. It uses  SQLite for local data storage and provides a user-friendly interface for performing CRUD (Create, Read, Update, Delete) operations on the data. You can add person into a FlatList and update the person by click. When deleting a person by a long press, it shows an Alert having buttons Cancel, Archive and Ok. The Cancel button cancels the delete, Archive button saves (updates) the person data into the database with flag 'Drchived' and Ok button deletes the item. Added persons added into SQLite database. Deletion is deleting the person from the database, also.
+
+
 
 # Getting Started
 
